@@ -57,12 +57,12 @@ module.exports = {
 			},
 		},
 		'⚙️': {
-			script: `npx cowsay "@nativescript/* packages will keep your ⚙️ cranking"`,
-			description: '_____________  @nativescript/*  _____________',
+			script: `npx cowsay "@loloof64/* packages will keep your ⚙️ cranking"`,
+			description: '_____________  @loloof64/*  _____________',
 		},
 		// packages
 		// build output is always in dist/packages
-		'@nativescript': {
+		'@loloof64': {
 			'build-all': {
 				script: 'nx run all:build',
 				description: 'Build all packages',
@@ -76,7 +76,7 @@ module.exports = {
 			reset: {
 				script: 'nx run all:focus',
 				description: 'Reset Focus',
-			}
+			},
 		},
 		'.....................': {
 			script: `npx cowsay "That's all for now folks ~"`,

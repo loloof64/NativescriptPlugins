@@ -5,7 +5,7 @@ npm run setup
 npm start
 ```
 
-- @loloof64
+- @loloof64/chess-oex-scanner
 
 # How to use?
 

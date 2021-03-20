@@ -63,6 +63,13 @@ module.exports = {
 		// packages
 		// build output is always in dist/packages
 		'@loloof64': {
+			// @loloof64/chess-oex-scanner
+			'chess-oex-scanner': {
+				build: {
+					script: 'nx run chess-oex-scanner:build.all',
+					description: '@loloof64/chess-oex-scanner: Build',
+				},
+			},
 			'build-all': {
 				script: 'nx run all:build',
 				description: 'Build all packages',
@@ -73,6 +80,10 @@ module.exports = {
 			description: '_____________  Focus (VS Code supported)  _____________',
 		},
 		focus: {
+			'chess-oex-scanner': {
+				script: 'nx run chess-oex-scanner:focus',
+				description: 'Focus on @loloof64/chess-oex-scanner',
+			},
 			reset: {
 				script: 'nx run all:focus',
 				description: 'Reset Focus',

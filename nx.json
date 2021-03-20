@@ -22,6 +22,9 @@
 		},
 		"all": {
 			"tags": []
+		},
+		"chess-oex-scanner": {
+			"tags": []
 		}
 	},
 	"workspaceLayout": {
